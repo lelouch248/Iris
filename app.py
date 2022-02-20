@@ -24,4 +24,4 @@ d = st.slider(label = 'Petal Width',min_value = 0.10,max_value = 6.90,value = 0.
 result = model.predict([[a,b,c,d]])
 st.title(iris.target_names[[result]])
 
-  
+     
