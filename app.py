@@ -1,4 +1,4 @@
-%%writefile app.py
+#%%writefile app.py
 import streamlit as st
 import joblib
 st.title('IRIS CLASSIFIER - API')
@@ -13,3 +13,5 @@ if result == 1:
   st.text('versicolor')
 if result ==2:
   st.text('verginica')
+
+  
