@@ -22,6 +22,6 @@ b = st.slider(label = 'Sepal Width',min_value = 0.50,max_value = 4.40,value = 3.
 c = st.slider(label = 'Petal Length',min_value = 0.50,max_value = 6.90,value = 1.4)
 d = st.slider(label = 'Petal Width',min_value = 0.10,max_value = 6.90,value = 0.2)
 result = model.predict([[a,b,c,d]])
-st.title(iris.target_names[result])
+st.title(iris.target_names[[result]])
 
   
